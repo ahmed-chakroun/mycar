@@ -1,0 +1,903 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body{
+    font-family: "Work Sans", sans-serif;
+    background-attachment: fixed;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  header a #sear{
+    margin-top: 0.1cm;
+        font-family: "Work Sans", sans-serif;
+
+  }
+#css{
+  position: fixed;
+  color: #0f3144;
+  background-color: #0f3144;
+  height: 45px;
+  width: 100%;
+  margin-top: 90px;
+  top: 0;
+  z-index: 1111;
+      font-family: "Work Sans", sans-serif;
+      text-align: right;
+
+  
+}
+header #car{
+    margin-right: 2cm;
+    width: 120px; 
+        font-family: "Work Sans", sans-serif;
+
+}
+ .sidebar{
+    position: fixed;
+    left: -250px;
+    background-color: #0f3144;
+    color: #ffffff;
+    height: 100%;
+    width: 250px;
+    transition: all .5s ease;
+    
+    top: 0;
+    z-index: 11111;
+    font-family: "Work Sans", sans-serif;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.2);
+
+    
+
+  }
+  .sidebar header{
+    background-color: #0f3144;
+    width: 250px;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    padding: 0%;
+    height: 40px;
+        font-family: "Work Sans", sans-serif;
+
+  }
+  .sidebar ul a{
+    display: block;
+    padding-left: 40px;
+    color: #ffffff;
+    line-height: 65px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    transition: .4s;
+        font-family: "Work Sans", sans-serif;
+
+    
+  }
+
+ul li:hover #h{
+  padding-left: 50px;
+      font-family: "Work Sans", sans-serif;
+
+  
+}
+.sidebar ul li a img{
+  padding-right: 14px;
+      font-family: "Work Sans", sans-serif;
+
+}
+#check{
+  display: none;
+}
+label #start ,label #cancel{
+  position: absolute;
+  cursor: pointer;
+  z-index: 1111;
+}
+label #start {
+ 
+  transition: all .5s ease ;
+  width: 50px; position: fixed;top: 30px;color: #0f3144;left: 30px;
+}
+label #cancel{
+  left:205px;
+  top: 11px;
+  transition: all .5s ease;
+}
+#check:checked ~ .sidebar{
+  left: 0;
+}
+#check :checked ~ label #start{
+  opacity: 0;
+  pointer-events: none;
+  left: 250px;
+}
+#check :checked ~ label #cancel{
+  left: 205px;
+} 
+  
+
+ 
+
+        .ff {
+      position: fixed;
+      bottom: 0cm;
+      left: 0cm;
+      text-align: left;
+      padding: 2px;
+      width: 100%;
+      background-color:#0f3144;
+      color: white;
+      z-index: 11111;
+      margin-top: 7cm;
+        }
+        input{
+          
+          width: 200px;
+          height: 33px;
+          border-radius: 15cm;
+          display: block;
+          margin-left: auto;
+          margin-right: 27%;
+          background-color:transparent ;
+          border-color: #5e5e5e;
+            font-family: "Work Sans", sans-serif;
+
+          
+        }
+    #top{
+     background-color: #ffffff;
+     color: #0f3144;
+     width: 100%;
+     height: 90px;
+     text-align: right;
+     position: fixed;
+     top: 0%;
+     z-index: 1111;
+         font-family: "Work Sans", sans-serif;
+
+
+    }
+        #sign{
+        background-color: #ffffff83;
+       width: 400px;
+       display: block;
+       background-position: center;
+       margin-top: 5.5cm;
+       margin-right: auto;
+       margin-left: auto;
+       position: relative;
+       margin-bottom: 100px;
+       box-shadow: 0 4px 12px -2px #ff0000;
+        }
+#sign :hover{
+box-shadow: 0 0px 0px 0px #ff0000;
+        }
+  #profile1{
+    margin-left: 4cm;
+        font-family: "Work Sans", sans-serif;
+
+     
+  }
+      #inputs{
+        line-height:10px ;
+        margin-left: 50px;
+        border-color: #ffffff;
+      }
+ #photo{
+   background-image: url(caree.jfif) ;
+   background-size: cover;
+        }
+#btn{
+    background-color:#ffffff;
+    color: #000000;
+    width: 100px;
+    size: 50%;
+    border-radius: 15px;
+    padding:0 ;
+    font-family:Arial, Helvetica, sans-serif ,bold ;
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: 15%;
+    transition:all .5s ease;
+  }
+  #btn:hover{
+    background-color: #0f3144;
+    color: #ffffff;
+    
+  }
+  #mycar{
+   width: 50px;
+   }
+ header  #sear{
+  background-color: #ffffff;
+  border-radius: 20px;
+  border-color: #ffffff;
+  border: 15px;
+  margin: 0;
+  position: fixed;
+  left: 150px;
+  size: 30px;
+  height: 27px;
+  top: 98px;
+  font-family: "Work Sans", sans-serif;
+  outline: none;
+  text-align: end;
+ }
+ .searchbutton{
+  background-color: transparent;
+  color: #0f3144;
+  padding: 10px;
+  border: 0cm;
+  position: fixed;
+  left: 155px;
+  z-index: 1111;
+  font-size: 20px ;  
+  top: 90px;
+ }
+ 
+.allimage{
+  width: 250px;
+  border-bottom: 1px solid rgb(218, 211, 211);  
+  object-fit: cover;
+
+ }
+
+ .posts{
+  grid-template-columns: 1fr 1fr 1fr ;
+  display: grid;
+  gap: 30px; 
+  margin-left: 100px;
+  width: 200px;
+  padding: 0%;
+  position: relative;
+  margin-bottom: 1cm;
+      font-family: "Work Sans", sans-serif;
+
+ }
+
+ .big-titel{
+  color: #0f3144;
+  margin: auto;
+  position: relative;
+  right: 580px;
+  top: 15px;
+  font-size: 60px;
+ }
+ .post1{
+  box-shadow: 0 4px 12px -2px #000000;
+  border-radius: 15px;
+  padding-bottom: 20px;
+  transition: all .5s ease;
+  padding-left: 10px;
+  padding-right: 10px;
+      font-family: "Work Sans", sans-serif;
+
+ }
+ .post1:hover{
+  background-color: #34627c;
+ }
+ 
+.titels{
+  font-size: 18px;
+  font: bold;
+  top: 10px;
+  color: #000000;
+  font-family:Arial, Helvetica, sans-serif ,bold;
+  text-align: right;
+  transition: all .5s ease;
+  cursor: pointer;
+ }
+ .titels:hover {
+  color: #ffffff;
+ }
+ .footers{
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  display: grid;
+  gap: 30px;
+  margin-left: 140px;
+ }
+ .footers img{
+  width: 20px;
+ }
+ .posts_titel h1{
+   margin-left: 104px;
+   margin-bottom: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .posts_titel h1::after{
+  width: 100px;
+  position: absolute;
+  height: 2px;
+  content: "";
+  background: red;
+  margin-top: 35px;
+  left: 0;
+  margin-left: 104px;
+
+ }
+ body{
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+ }
+ .filter{
+  position: fixed;
+  right: 0cm;
+  top: 130px;
+  z-index: 1111;
+  background-color: #34627c;
+  width: 300px;
+  height: 100%;
+  text-align: left;
+  color: #ffffff;
+  
+
+ }
+ 
+ .jj li a{
+  
+  padding-left: 40px;
+  color: #ffffff;
+  line-height: 40px;
+  font-size: 13px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+ }
+ .jj li{
+  position: relative;
+ border-bottom:  1px solid rgb(218, 211, 211);
+ top: 20px;
+ size: 0cm;
+ }
+ 
+ .navbar{
+  position: relative;
+  top: 10px;
+  padding-left: 10px;
+  height: 20px;
+  border-bottom:  1px solid rgb(218, 211, 211);
+
+ }
+ #h{
+  position: relative;
+  top: -2px
+  
+ }
+#gg{
+  
+  margin-top: 0;
+  color: #ffffff;
+  position: relative;
+  top: 90px;
+  left: 350px;
+  z-index: 11111111;
+}
+.me{
+  display: none;
+  background-color: #ffffff;
+  z-index: 111111111111;
+  color: #000000;
+  position: fixed;
+  
+  top: 250px;
+  left: 225px;
+  line-height: 3px ;
+  
+  
+}
+.me ul li{
+  padding: 15px;
+  padding-right: 80px;
+}
+.me ul li:hover{
+  background-color: #c9c4c4;
+}
+#xek:checked~.me{
+ display: block;
+}
+
+#xek{
+  display: none;
+  
+}
+.adam{
+  width: 1000px;
+  position: fixed;
+  background-color: #34627c;
+  color: white;
+  box-shadow: 0 4px 12px -2px #000000;
+  z-index: 1111111;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.adam .text{
+  width: 350px;
+  position: relative;
+  left: 800px;
+  top: -140px;
+  
+
+}
+.adam img{
+  position: relative;
+  top: 90px;
+  left: 50px;
+  width: 500px;
+  
+  
+}
+.adam button{
+  background-color: transparent;
+  border: none;
+  position: fixed;
+  color: white;
+  top:20px;
+  right:0 ;
+  width: 100px;
+}
+.adam #img2{
+  position: relative;
+  top: 170px;
+
+}
+.adam #text2{
+  position: relative;
+  top: -90px;
+  
+}
+.adam #img6{
+  position: relative;
+  top: 170px;
+
+}
+.adam #text6{
+  position: relative;
+  top: -60px;
+  
+}
+.adam #img3{
+  position: relative;
+  top: 170px;
+
+}
+.adam #img5{
+  position: relative;
+  top: 150px;
+
+}
+.adam #text3{
+  position: relative;
+  top: -60px;
+  
+}
+.adam #img4{
+  position: relative;
+  top: 170px;
+
+}
+.adam #text4{
+  position: relative;
+  top: -60px;
+  
+}
+.rent{
+  background-color: #0f3144;
+  border: none; 
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  position: relative;
+  top: 11px;
+  left: 95px;
+}
+ #f2{
+  position: relative;
+  top: 57px;
+  left: 120px;
+}
+#f3{
+  position: relative;
+  top: 57px;
+  left: 55px;
+}
+#f4{
+   position: relative;
+  top: 54px;
+  left: 90px;
+}
+#f5{
+  position: relative;
+  left: 86px;
+  top: 13px;
+}
+#f6{
+   position: relative;
+  left: 137px;
+}
+.xx{
+  background-color: transparent;
+  border: none;
+  position: fixed;
+  color: rgb(0, 0, 0);
+  top:240px;
+  right:510px;
+  width: 100px;
+  font-size: 20px;
+}
+.divv{
+  position: fixed;
+  top: 230px;
+  left: 500px;
+  border-radius: 8px;
+   text-align: center;
+   width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   z-index: 1111111111;
+   background-color: #ffffff;
+   padding-top: 70px;
+   padding-bottom: 70px;
+   font-family: "Work Sans", sans-serif;
+   display: none;
+}
+.divv a{
+  background-color: #0f3144;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+.ph{
+  top: 3px;
+  position: relative;
+}
+.overlay {
+ position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#darkModeToggle {
+  padding: 5px 10px;
+  border: none;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  position: relative;
+  right: 70px;
+  top:-60px;
+  background-color: #0f3144;
+  margin: auto;
+  text-align: center;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark-mode .post1,
+.dark-mode .adam,
+.dark-mode .divv,
+.dark-mode .sidebar,
+.dark-mode .filter,
+.dark-mode header,
+.dark-mode footer {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.dark-mode a,
+.dark-mode h2,
+.dark-mode p {
+  color: #fff;
+}
+.dark-mode #top {
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333;
+}
+
+.dark-mode #top img {
+  filter: brightness(0.8);
+}
+.dark-mode #css {
+  background-color: #1e1e1e;
+  border-bottom: 1px solid #333;
+}
+
+.dark-mode #css input[type="text"] {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+.dark-mode #css .searchbutton {
+  background-color: #44444400;
+  color: #fff;
+  border: none;
+}
+.dark-mode .rent {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+.dark-mode .rent:hover {
+  background-color: #444;
+  color: #fff;
+}
+.dark-mode #start {
+  color: white !important;
+}
+.dark-mode .phonen {
+  background-color: red !important;
+}
+.dark-mode #car{
+  background-color: white !important;
+  border-radius: 100%;
+}
+.dark-mode #darkModeToggle{
+  background-color: transparent;
+}
+.dark-mode .big-titel{
+  color: white;
+}
+
+@media screen and (max-width: 428px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .sidebar {
+    width: 200px;
+  }
+
+
+  .sidebar header {
+    font-size: 18px;
+    width: 200px;
+  }
+
+  header #car {
+    width: 80px;
+    margin-right: 1cm;
+  }
+  #top{
+    left: 0;
+    top: -5px;
+  }
+  #css{
+    left: 0;
+    top: -5px;
+  }
+  .searchbutton {
+    right: 20px;
+    font-size: 16px;
+    top: 90px;
+  }
+
+  header #sear {
+    width: 150px;
+    right: 50px;
+  }
+
+  .post1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .allimage {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .posts {
+    grid-template-columns: 1fr;
+    margin-left: 35px;
+    gap: 20px;
+  }
+  .post1{
+    width: 300px;
+  }
+  .ff img {
+    width: 25px;
+  }
+
+  .divv {
+    padding: 30px;
+    width: 200px;
+    left: 75px;
+    top: 300px;
+  }
+  .xx{
+    left: 270px;
+    top: 310px;
+  }
+  .adam {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #top {
+    height: 70px;
+  }
+
+  #css {
+    margin-top: 70px;
+  }
+
+  label #start {
+    top: 20px;
+    left: 15px;
+  }
+  .filter{
+    display: none;
+  }
+  header #sear{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    text-align: start;
+  }
+  .searchbutton{
+    position: relative;
+    top: -22px;
+    left: -200px;
+  }
+  .big-titel{
+    position: relative;
+    z-index: 111111111111111111;
+    right: 130px;
+    font-size: 40px;
+  }
+  #darkModeToggle{
+    right: 23px;
+    top: -75px;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    margin-right: 10px;
+  }
+  #darkModeToggle img{
+    width: 15px;
+  }
+  .footers{
+    margin-left: 30px;
+  }
+  .posts_titel h1{
+    position: relative;
+    left: -65px; 
+
+  }
+   .posts_titel h1::after{
+    position: relative;
+   }
+   #f2{
+  position: relative;
+  top: 10px;
+  left: 100px;
+}
+#f3{
+  position: relative;
+  top: 10px;
+  left: 98px;
+}
+#f4{
+   position: relative;
+  top: 7px;
+  left: 66px;
+}
+#f5{
+  position: relative;
+  left: 70px;
+  top: 13px;
+}
+#f6{
+   position: relative;
+  left: 15px;
+
+}
+.rent{
+  position: relative;
+  left: 130px;
+}
+label #start{
+  position: fixed;
+  left: 30px;
+  top: 23px;
+}
+label #cancel{
+  left: 166px;
+}
+.adam .text{
+  left: 20px;
+  top: 0;
+}
+.adam img{
+ 
+  top: 80px;
+  left: -65px;
+  width: 480px;
+  
+  
+}
+.adam #img2{
+  position: relative;
+  top: 100px;
+  left: -10px;
+  width: 400px;
+}
+.adam #text2{
+  position: relative;
+  top: 90px;
+  
+}
+.adam #img6{
+  position: relative;
+  top: 170px;
+  width: 400px;
+  left: 10px;
+}
+.adam #text6{
+  position: relative;
+  top: 170px;
+  
+}
+.adam #img3{
+  position: relative;
+  top: 120px;
+
+}
+.adam #img5{
+  position: relative;
+  top: 100px;
+  width: 400px;
+  left: 0px;
+}
+.adam #text3{
+  position: relative;
+  top: 90px;
+  
+}
+.adam #img4{
+  position: relative;
+  top: 120px;
+
+}
+.adam #text4{
+  position: relative;
+  top: 100px;
+  
+}
+.adam #text5{
+  position: relative;
+  top: 100px;
+  
+}
+.opinion-form input{
+  margin-right: 50pxpx;
+}
+}
+
